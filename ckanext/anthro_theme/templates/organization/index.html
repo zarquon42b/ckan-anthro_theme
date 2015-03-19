@@ -1,21 +1,21 @@
 {% extends "page.html" %}
 
-{% block subtitle %}{{ _('Organizations') }}{% endblock %}
+{% block subtitle %}{{ _('Projects') }}{% endblock %}
 
 {% block breadcrumb_content %}
-  <li class="active">{% link_for _('Organizations'), controller='organization', action='index' %}</li>
+  <li class="active">{% link_for _('Projects'), controller='organization', action='index' %}</li>
 {% endblock %}
 
 {% block page_header %}{% endblock %}
 
 {% block page_primary_action %}
   {% if h.check_access('organization_create') %}
-    {% link_for _('Add Organization'), controller='organization', action='new', class_='btn btn-primary', icon='plus-sign-alt' %}
+    {% link_for _('Add Project'), controller='organization', action='new', class_='btn btn-primary', icon='plus-sign-alt' %}
   {% endif %}
 {% endblock %}
 
 {% block primary_content_inner %}
-  <h1 class="hide-heading">{% block page_heading %}{{ _('Organizations') }}{% endblock %}</h1>
+  <h1 class="hide-heading">{% block page_heading %}{{ _('Projects') }}{% endblock %}</h1>
   {% block organizations_search_form %}
     {% snippet 'snippets/search_form.html', type='organization', query=c.q, sorting_selected=c.sort_by_selected, count=c.page.item_count, placeholder=_('Search organizations...'), show_empty=request.params, no_bottom_border=true if c.page.items %}
   {% endblock %}
