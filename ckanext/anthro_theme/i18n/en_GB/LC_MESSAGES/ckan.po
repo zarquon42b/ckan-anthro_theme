@@ -7,10 +7,10 @@
 # Sean Hammond <sean.hammond@okfn.org>, 2013
 msgid ""
 msgstr ""
-"BlaBla-Id-Version: CKAN\n"
+"Project-Id-Version: CKAN\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-12-13 11:40+0000\n"
-"PO-Revision-Date: 2015-03-19 14:46+0100\n"
+"PO-Revision-Date: 2015-03-16 11:10+0100\n"
 "Last-Translator: Felix Engel <Felix.Engel@uniklinik-freiburg.de>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/"
 "ckan/language/en_GB/)\n"
@@ -21,7 +21,6 @@ msgstr ""
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
-"Project-Id-Version: \n"
 
 #: ckan/new_authz.py:189
 #, python-format
@@ -274,7 +273,7 @@ msgstr "Unauthorized to read group %s"
 #: ckan/templates/organization/read_base.html:6
 #: ckan/templates/package/base.html:14
 msgid "Organizations"
-msgstr "BlaBlas00"
+msgstr "Projects"
 
 #: ckan/controllers/group.py:290 ckan/controllers/home.py:71
 #: ckan/controllers/package.py:226 ckan/lib/helpers.py:602
@@ -359,7 +358,7 @@ msgstr "Unauthorized to delete group %s"
 
 #: ckan/controllers/group.py:597
 msgid "Organization has been deleted."
-msgstr "BlaBla has been deleted."
+msgstr "Project has been deleted."
 
 #: ckan/controllers/group.py:599
 msgid "Group has been deleted."
@@ -1314,7 +1313,7 @@ msgstr "You cannot remove a dataset from an existing project"
 
 #: ckan/logic/validators.py:43
 msgid "Organization does not exist"
-msgstr "BlaBla does not exist"
+msgstr "Project does not exist"
 
 #: ckan/logic/validators.py:48
 msgid "You cannot add a dataset to this organization"
@@ -1656,7 +1655,7 @@ msgstr "TaskStatus was not found."
 
 #: ckan/logic/action/update.py:1093
 msgid "Organization was not found."
-msgstr "BlaBla was not found."
+msgstr "Project was not found."
 
 #: ckan/logic/auth/create.py:19 ckan/logic/auth/create.py:37
 #, python-format
@@ -2979,12 +2978,12 @@ msgstr ""
 "of RDMBA, open an account by clicking 'register' in the upper right corner "
 "of the user interface.</li> <li>Send an email to the project administrator. "
 "To find out who is in charge of specific projects, go to <a "
-"href=http://132.230.172.218/organization>'BlaBlas'</a>, find the one you are "
-"interested in and go to the project's 'About' tab. Do not forget to give the "
-"project administrator your RDMBA user name.</li> <li>The project "
+"href=http://132.230.172.218/organization>'Projects'</a>, find the one you "
+"are interested in and go to the project's 'About' tab. Do not forget to give "
+"the project administrator your RDMBA user name.</li> <li>The project "
 "administrator will grant you the right to view or edit data sets in the "
 "respective project, which you will be able to access while being logged in "
-"to RDMBA.</li> </ol> <h2>How to Create a BlaBla</h2> <p>If you are working "
+"to RDMBA.</li> </ol> <h2>How to Create a Project</h2> <p>If you are working "
 "on a project within Biological Anthropoloy at Freiburg University that you "
 "would like to manage through RDMBA, please take the following steps to set "
 "one up and become its administrator:</p> <ol> <li>If you are not yet a "
@@ -3157,7 +3156,7 @@ msgstr "There is no description for this project"
 
 #: ckan/templates/organization/base_form_page.html:5
 msgid "Organization Form"
-msgstr "BlaBla Form"
+msgstr "Project Form"
 
 #: ckan/templates/organization/bulk_process.html:3
 #: ckan/templates/organization/bulk_process.html:11
@@ -3283,7 +3282,7 @@ msgstr ""
 #: ckan/templates/organization/new.html:7
 #: ckan/templates/organization/new.html:12
 msgid "Create an Organization"
-msgstr "Create a project0"
+msgstr "Create a project"
 
 #: ckan/templates/organization/new_organization_form.html:17
 msgid "Update Organization"
@@ -3315,7 +3314,7 @@ msgid ""
 "individual users the right to publish datasets from that particular "
 "organisation (e.g. Office of National Statistics).</p> "
 msgstr ""
-" <p>BlaBlas act like publishing departments for datasets. All datasets need "
+" <p>Projects act like publishing departments for datasets. All datasets need "
 "to be published by a project member and belong to a project.</p> <p>Within "
 "projects, admins can assign roles and authorisation to its members, giving "
 "individual users the right to publish datasets from that particular project."
@@ -4349,7 +4348,7 @@ msgstr "My Datasets"
 #: ckan/templates/user/dashboard.html:21
 #: ckan/templates/user/dashboard_organizations.html:12
 msgid "My Organizations"
-msgstr "My BlaBlas"
+msgstr "My Projects"
 
 #: ckan/templates/user/dashboard.html:22
 #: ckan/templates/user/dashboard_groups.html:12
