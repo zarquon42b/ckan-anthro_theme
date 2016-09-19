@@ -4,7 +4,7 @@
 
 {% block breadcrumb_content %}
   <li>{% link_for _('Projects'), controller='organization', action='index' %}</li>
-  <li class="active">{% link_for c.group_dict.display_name|truncate(35), controller='organization', action='read', id=c.group_dict.name %}</li>
+   <li class="active">{% link_for c.group_dict.display_name|truncate(35), controller='organization', action='read', id=c.group_dict.name %}</li>
 {% endblock %}
 
 {% block content_action %}
@@ -15,7 +15,7 @@
 
 {% block content_primary_nav %}
   {{ h.build_nav_icon('organization_read', _('Datasets'), id=c.group_dict.name) }}
-  {{ h.build_nav_icon('organization_activity', _('Activity Stream'), id=c.group_dict.name) }}
+  {{ h.build_nav_icon('organization_activity', _('Activity Stream'), id=c.group_dict.name, offset=0) }}
   {{ h.build_nav_icon('organization_about', _('About'), id=c.group_dict.name) }}
 {% endblock %}
 
