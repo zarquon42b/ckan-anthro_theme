@@ -1,151 +1,232 @@
 {
   "": {
-    "domain": "ckan",
-    "lang": "cs_CZ",
-    "plural-forms": "nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;"
-  },
+    "domain": "ckan", 
+    "lang": "cs_CZ", 
+    "plural-forms": "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
+  }, 
+  "%(color)s shirt": [
+    "%(color)s shirts", 
+    "%(color)s košile", 
+    "%(color)s košile", 
+    "%(color)s košil", 
+    "%(color)s košil"
+  ], 
+  "%(num)d item": [
+    "%(num)d items", 
+    "%(num)d položka", 
+    "%(num)d položky", 
+    "%(num)d položek", 
+    "%(num)d položek"
+  ], 
+  "%(num)d missing translation": [
+    "%(num)d missing translations", 
+    "%(num)d chybějící překlad", 
+    "%(num)d chybějící překlady", 
+    "%(num)d chybějících překladů", 
+    "%(num)d chybějících překladů"
+  ], 
+  "Add Filter": [
+    null, 
+    "Přidat filtr"
+  ], 
   "An Error Occurred": [
-    null,
+    null, 
     "Nastala chyba"
-  ],
+  ], 
   "Are you sure you want to perform this action?": [
-    null,
+    null, 
     "Jste si jistí, že chcete provést tuto akci?"
-  ],
+  ], 
   "Cancel": [
-    null,
+    null, 
     "Zrušit"
-  ],
+  ], 
   "Confirm": [
-    null,
+    null, 
     "Potvrdit"
-  ],
+  ], 
+  "Could not load view": [
+    null, 
+    "Nelze načíst pohled"
+  ], 
+  "DataProxy returned an error": [
+    null, 
+    "Nastala chyba v DataProxy"
+  ], 
+  "DataStore returned an error": [
+    null, 
+    "Nastala chyba v DataStore"
+  ], 
   "Edit": [
-    null,
+    null, 
     "Upravit"
-  ],
+  ], 
   "Failed to load data API information": [
-    null,
+    null, 
     "Pokus o získání informací pomocí API selhal"
-  ],
+  ], 
+  "File": [
+    null, 
+    "Soubor"
+  ], 
+  "Filters": [
+    null, 
+    "Filtry"
+  ], 
   "Follow": [
-    null,
+    null, 
     "Sledovat"
-  ],
+  ], 
+  "Graph": [
+    null, 
+    "Graf"
+  ], 
+  "Grid": [
+    null, 
+    "Mřížka"
+  ], 
   "Hide": [
-    null,
+    null, 
     "Skrýt"
-  ],
+  ], 
   "Image": [
-    null,
+    null, 
     "Obrázek"
-  ],
+  ], 
   "Input is too short, must be at least one character": [
-    null,
-    "Zadaný vstup je příliš krátký, musíte zadat alespoň jeden znak"
-  ],
+    "Input is too short, must be at least %(num)d characters", 
+    "Vstup je příliš krátky, musí mít alespoň jeden znak", 
+    "Vstup je příliš krátky, musí mít alespoň %(num)d znaky", 
+    "Vstup je příliš krátky, musí mít alespoň %(num)d znaků", 
+    "Vstup je příliš krátky, musí mít alespoň %(num)d znaků"
+  ], 
   "Link": [
-    null,
+    null, 
     "Odkaz"
-  ],
+  ], 
   "Link to a URL on the internet (you can also link to an API)": [
-    null,
+    null, 
     "Odkaz na internetovou URL adresu (můžete také zadat odkaz na API)"
-  ],
+  ], 
   "Loading...": [
-    null,
-    "Nahrávám ..."
-  ],
+    null, 
+    "Nahrávám..."
+  ], 
+  "Map": [
+    null, 
+    "Mapa"
+  ], 
   "No matches found": [
-    null,
+    null, 
     "Nenalezena žádná shoda"
-  ],
+  ], 
   "Please Confirm Action": [
-    null,
+    null, 
     "Prosím potvrďte akci"
-  ],
+  ], 
   "Remove": [
-    null,
+    null, 
     "Odstranit"
-  ],
-  "Reorder resource view": [
-    null,
-    "Přeuspořádat zobrazení zdroje"
-  ],
-  "Reorder resources": [
-    null,
-    "Změnit pořadí zdrojů"
-  ],
+  ], 
   "Resource uploaded": [
-    null,
-    "Zdroj nahrán"
-  ],
+    null, 
+    "Datový zdroj nahrán"
+  ], 
   "Save order": [
-    null,
+    null, 
     "Uložit pořadí"
-  ],
+  ], 
   "Saving...": [
-    null,
+    null, 
     "Ukládám..."
-  ],
+  ], 
+  "Select a field": [
+    null, 
+    "Vyberte pole"
+  ], 
   "Show more": [
-    null,
+    null, 
     "Ukázat více"
-  ],
+  ], 
   "Start typing…": [
-    null,
+    null, 
     "Začněte psát..."
-  ],
+  ], 
   "There are unsaved modifications to this form": [
-    null,
+    null, 
     "Tento formulář obsahuje neuložené změny"
-  ],
+  ], 
   "There is no API data to load for this resource": [
-    null,
-    "Tento zdroj neobsahuje žádná data, která lze poskytnou přes API"
-  ],
+    null, 
+    "Tento datový zdroj neobsahuje žádná data, která lze poskytnou přes API"
+  ], 
   "URL": [
-    null,
+    null, 
     "URL"
-  ],
+  ], 
   "Unable to authenticate upload": [
-    null,
+    null, 
     "Nastala chyba autentizace při nahrávání dat"
-  ],
+  ], 
   "Unable to get data for uploaded file": [
-    null,
+    null, 
     "Nelze získat data z nahraného souboru"
-  ],
+  ], 
   "Unable to upload file": [
-    null,
+    null, 
     "Nelze nahrát soubor"
-  ],
+  ], 
   "Unfollow": [
-    null,
+    null, 
     "Přestat sledovat"
-  ],
+  ], 
   "Upload": [
-    null,
+    null, 
     "Nahrát"
-  ],
+  ], 
   "Upload a file": [
-    null,
+    null, 
     "Nahrát soubor"
-  ],
+  ], 
   "Upload a file on your computer": [
-    null,
-    "Nahrát soubor na Váš počítač"
-  ],
+    null, 
+    "Nahrát soubor z počítače"
+  ], 
   "You are uploading a file. Are you sure you want to navigate away and stop this upload?": [
-    null,
+    null, 
     "Právě nahráváte soubor. Jste si opravdu jistí, že chcete tuto stránku opustit a ukončit tak nahrávání?"
-  ],
-  "show less": [
-    null,
-    "ukázat méně"
-  ],
-  "show more": [
-    null,
-    "ukázat více"
+  ], 
+  "bar": [
+    "bars", 
+    "něco", 
+    "něco", 
+    "něco", 
+    "něco"
+  ], 
+  "error loading view": [
+    null, 
+    "Chyba při načítání pohledu"
+  ], 
+  "foo": [
+    null, 
+    "něco"
+  ], 
+  "hello %(name)s!": [
+    null, 
+    "Vítejte %(name)s!"
+  ], 
+  "no %(attr)s translation": [
+    "no %(attr)s translations", 
+    "chybí překlad %(attr)s", 
+    "chybí překlady %(attr)s", 
+    "chybí překlady %(attr)s", 
+    "chybí překlady %(attr)s"
+  ], 
+  "no translation": [
+    "no translations", 
+    "žádný překlad", 
+    "žádné překlady", 
+    "žádné překlady", 
+    "žádné překlady"
   ]
 }

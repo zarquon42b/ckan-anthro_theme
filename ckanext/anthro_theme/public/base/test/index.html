@@ -46,12 +46,14 @@
     <script src="../javascript/modules/autocomplete.js"></script>
     <script src="../javascript/modules/resource-form.js"></script>
     <script src="../javascript/modules/resource-upload-field.js"></script>
+    <script src="../javascript/modules/image-upload.js"></script>
     <script src="../javascript/modules/confirm-action.js"></script>
     <script src="../javascript/modules/custom-fields.js"></script>
-    <script src="../javascript/modules/related-item.js"></script>
+    <script src="../javascript/modules/followers-counter.js"></script>
 
     <!-- Suite -->
     <script src="./spec/ckan.spec.js"></script>
+    <script src="./spec/i18n.spec.js"></script>
     <script src="./spec/module.spec.js"></script>
     <script src="./spec/sandbox.spec.js"></script>
     <script src="./spec/client.spec.js"></script>
@@ -60,11 +62,12 @@
     <script src="./spec/view-filters.spec.js"></script>
     <script src="./spec/modules/resource-form.spec.js"></script>
     <script src="./spec/modules/resource-upload-field.spec.js"></script>
+    <script src="./spec/modules/image-upload.spec.js"></script>
     <script src="./spec/modules/confirm-action.spec.js"></script>
     <script src="./spec/modules/basic-form.spec.js"></script>
     <script src="./spec/modules/autocomplete.spec.js"></script>
     <script src="./spec/modules/custom-fields.spec.js"></script>
-    <script src="./spec/modules/related-item.spec.js"></script>
+    <script src="./spec/modules/followers-counter.spec.js"></script>
     <script src="./spec/plugins/jquery.inherit.spec.js"></script>
     <script src="./spec/plugins/jquery.proxy-all.spec.js"></script>
     <script src="./spec/plugins/jquery.url-helpers.spec.js"></script>
@@ -134,6 +137,26 @@
       afterEach(function () {
         this.fixture.empty();
       });
+
+
+      // Add dummy translations for testing i18n
+      ckan.i18n.load({
+        '': {
+          "domain": "ckan",
+          "lang": "en",
+          "plural_forms": "nplurals=2; plural=(n != 1);"
+        },
+        'foo': [null, 'FOO'],
+        'hello %(name)s!': [null, 'HELLO %(name)s!'],
+        'bar': ['bars', 'BAR', 'BARS'],
+        '%(color)s shirt': [
+          '%(color)s shirts',
+          '%(color)s SHIRT',
+          '%(color)s SHIRTS'
+        ],
+        '%(num)d item': ['%(num)d items', '%(num)d ITEM', '%(num)d ITEMS']
+      });
+
 
       if (window.mochaPhantomJS) {
         mochaPhantomJS.run();

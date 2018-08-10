@@ -1,119 +1,186 @@
 {
   "": {
-    "domain": "ckan",
-    "lang": "en_AU",
+    "domain": "ckan", 
+    "lang": "en_AU", 
     "plural-forms": "nplurals=2; plural=(n != 1);"
-  },
+  }, 
+  "%(color)s shirt": [
+    "%(color)s shirts", 
+    "", 
+    ""
+  ], 
+  "%(num)d item": [
+    "%(num)d items", 
+    "", 
+    ""
+  ], 
+  "%(num)d missing translation": [
+    "%(num)d missing translations", 
+    "", 
+    ""
+  ], 
+  "Add Filter": [
+    null, 
+    "Add Filter"
+  ], 
   "An Error Occurred": [
-    null,
+    null, 
     "An Error Occurred"
-  ],
+  ], 
   "Are you sure you want to perform this action?": [
-    null,
+    null, 
     "Are you sure you want to perform this action?"
-  ],
+  ], 
   "Cancel": [
-    null,
+    null, 
     "Cancel"
-  ],
+  ], 
   "Confirm": [
-    null,
+    null, 
     "Confirm"
-  ],
+  ], 
   "Edit": [
-    null,
+    null, 
     "Edit"
-  ],
+  ], 
   "Failed to load data API information": [
-    null,
+    null, 
     "Failed to load data API information"
-  ],
+  ], 
+  "File": [
+    null, 
+    "File"
+  ], 
+  "Filters": [
+    null, 
+    "Filters"
+  ], 
   "Follow": [
-    null,
+    null, 
     "Follow"
-  ],
+  ], 
+  "Graph": [
+    null, 
+    "Graph"
+  ], 
   "Hide": [
-    null,
+    null, 
     "Hide"
-  ],
+  ], 
   "Image": [
-    null,
+    null, 
     "Image"
-  ],
+  ], 
   "Input is too short, must be at least one character": [
-    null,
-    "Input is too short, must be at least one character"
-  ],
+    "Input is too short, must be at least %(num)d characters", 
+    "", 
+    ""
+  ], 
+  "Link": [
+    null, 
+    "Link"
+  ], 
+  "Link to a URL on the internet (you can also link to an API)": [
+    null, 
+    "Link to a URL on the internet (you can also link to an API)"
+  ], 
   "Loading...": [
-    null,
+    null, 
     "Loading..."
-  ],
+  ], 
+  "Map": [
+    null, 
+    "Map"
+  ], 
   "No matches found": [
-    null,
+    null, 
     "No matches found"
-  ],
+  ], 
   "Please Confirm Action": [
-    null,
+    null, 
     "Please Confirm Action"
-  ],
+  ], 
   "Remove": [
-    null,
+    null, 
     "Remove"
-  ],
+  ], 
   "Resource uploaded": [
-    null,
+    null, 
     "Resource uploaded"
-  ],
+  ], 
+  "Save order": [
+    null, 
+    "Save order"
+  ], 
+  "Saving...": [
+    null, 
+    "Saving..."
+  ], 
   "Show more": [
-    null,
+    null, 
     "Show more"
-  ],
+  ], 
   "Start typing…": [
-    null,
+    null, 
     "Start typing…"
-  ],
+  ], 
   "There are unsaved modifications to this form": [
-    null,
+    null, 
     "There are unsaved modifications to this form"
-  ],
+  ], 
   "There is no API data to load for this resource": [
-    null,
+    null, 
     "There is no API data to load for this resource"
-  ],
+  ], 
   "URL": [
-    null,
+    null, 
     "URL"
-  ],
+  ], 
   "Unable to authenticate upload": [
-    null,
+    null, 
     "Unable to authenticate upload"
-  ],
+  ], 
   "Unable to get data for uploaded file": [
-    null,
+    null, 
     "Unable to get data for uploaded file"
-  ],
+  ], 
   "Unable to upload file": [
-    null,
+    null, 
     "Unable to upload file"
-  ],
+  ], 
   "Unfollow": [
-    null,
+    null, 
     "Unfollow"
-  ],
+  ], 
   "Upload": [
-    null,
+    null, 
     "Upload"
-  ],
+  ], 
   "Upload a file": [
-    null,
+    null, 
     "Upload a file"
-  ],
-  "show less": [
-    null,
-    "show less"
-  ],
-  "show more": [
-    null,
-    "show more"
+  ], 
+  "Upload a file on your computer": [
+    null, 
+    "Upload a file on your computer"
+  ], 
+  "You are uploading a file. Are you sure you want to navigate away and stop this upload?": [
+    null, 
+    "You are uploading a file. Are you sure you want to navigate away and stop this upload?"
+  ], 
+  "bar": [
+    "bars", 
+    "", 
+    ""
+  ], 
+  "no %(attr)s translation": [
+    "no %(attr)s translations", 
+    "", 
+    ""
+  ], 
+  "no translation": [
+    "no translations", 
+    "", 
+    ""
   ]
 }

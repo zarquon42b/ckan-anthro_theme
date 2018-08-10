@@ -30,6 +30,16 @@ this.ckan = this.ckan || {};
     ckan.SITE_ROOT   = getRootFromData('siteRoot');
     ckan.LOCALE_ROOT = getRootFromData('localeRoot');
 
+    // Convert all datetimes to the users timezone
+    jQuery('.automatic-local-datetime').each(function() {
+        moment.locale(locale);
+        var date = moment(jQuery(this).data('datetime'));
+        if (date.isValid()) {
+            jQuery(this).html(date.format("LL, LT ([UTC]Z)")); 
+        }
+        jQuery(this).show();
+    })
+
     // Load the localisations before instantiating the modules.
     ckan.sandbox().client.getLocaleData(locale).done(function (data) {
       ckan.i18n.load(data);
@@ -79,16 +89,6 @@ this.ckan = this.ckan || {};
   }
 
 })(this.ckan, this.jQuery);
-
-// Forces this to redraw in Internet Explorer 7
-// This is useful for when IE7 doesn't properly render parts of the page after
-// some dom manipulation has happened
-this.jQuery.fn.ie7redraw = function() {
-  if (jQuery('html').hasClass('ie7')) {
-    jQuery(this).css('zoom', 1);
-  }
-};
-
 
 // Show / hide filters for mobile
 $(function() {

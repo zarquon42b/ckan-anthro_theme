@@ -1,31 +1,80 @@
 {
   "": {
-    "domain": "ckan",
-    "lang": "pl",
-    "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
-  },
+    "domain": "ckan", 
+    "lang": "pl", 
+    "plural-forms": "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"
+  }, 
+  "%(color)s shirt": [
+    "%(color)s shirts", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "%(num)d item": [
+    "%(num)d items", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "%(num)d missing translation": [
+    "%(num)d missing translations", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
   "Cancel": [
-    null,
+    null, 
     "Anuluj"
-  ],
+  ], 
   "Edit": [
-    null,
+    null, 
     "Edycja"
-  ],
+  ], 
+  "Input is too short, must be at least one character": [
+    "Input is too short, must be at least %(num)d characters", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
   "Loading...": [
-    null,
+    null, 
     "Ładowanie..."
-  ],
+  ], 
   "URL": [
-    null,
+    null, 
     "URL"
-  ],
+  ], 
   "Upload": [
-    null,
+    null, 
     "Prześlij plik"
-  ],
+  ], 
   "Upload a file": [
-    null,
+    null, 
     "Prześlij plik"
+  ], 
+  "bar": [
+    "bars", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "no %(attr)s translation": [
+    "no %(attr)s translations", 
+    "", 
+    "", 
+    "", 
+    ""
+  ], 
+  "no translation": [
+    "no translations", 
+    "", 
+    "", 
+    "", 
+    ""
   ]
 }

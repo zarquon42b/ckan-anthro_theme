@@ -1,43 +1,83 @@
 {
   "": {
-    "domain": "ckan",
-    "lang": "id",
+    "domain": "ckan", 
+    "lang": "id", 
     "plural-forms": "nplurals=1; plural=0;"
-  },
+  }, 
+  "%(color)s shirt": [
+    "%(color)s shirts", 
+    ""
+  ], 
+  "%(num)d item": [
+    "%(num)d items", 
+    ""
+  ], 
+  "%(num)d missing translation": [
+    "%(num)d missing translations", 
+    ""
+  ], 
   "Cancel": [
-    null,
+    null, 
     "Batal"
-  ],
+  ], 
   "Edit": [
-    null,
+    null, 
     "Edit"
-  ],
+  ], 
   "Follow": [
-    null,
+    null, 
     "Ikuti"
-  ],
+  ], 
+  "Graph": [
+    null, 
+    "Grafik"
+  ], 
   "Image": [
-    null,
+    null, 
     "Gambar"
-  ],
+  ], 
+  "Input is too short, must be at least one character": [
+    "Input is too short, must be at least %(num)d characters", 
+    ""
+  ], 
   "Loading...": [
-    null,
+    null, 
     "Memuat..."
-  ],
+  ], 
+  "Map": [
+    null, 
+    "Peta"
+  ], 
   "URL": [
-    null,
+    null, 
     "URL"
-  ],
+  ], 
   "Unfollow": [
-    null,
+    null, 
     "Tidak ikuti"
-  ],
+  ], 
   "Upload": [
-    null,
+    null, 
     "Unggah"
-  ],
+  ], 
   "Upload a file": [
-    null,
+    null, 
     "Unggah file"
+  ], 
+  "bar": [
+    "bars", 
+    ""
+  ], 
+  "error loading view": [
+    null, 
+    "Kesalahan dalam memuat pratayang"
+  ], 
+  "no %(attr)s translation": [
+    "no %(attr)s translations", 
+    ""
+  ], 
+  "no translation": [
+    "no translations", 
+    ""
   ]
 }

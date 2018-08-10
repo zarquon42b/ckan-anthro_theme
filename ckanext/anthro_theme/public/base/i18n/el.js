@@ -1,139 +1,218 @@
 {
   "": {
-    "domain": "ckan",
-    "lang": "el",
+    "domain": "ckan", 
+    "lang": "el", 
     "plural-forms": "nplurals=2; plural=(n != 1);"
-  },
+  }, 
+  "%(color)s shirt": [
+    "%(color)s shirts", 
+    "%(color)s πουκάμισο", 
+    "%(color)s πουκάμισα"
+  ], 
+  "%(num)d item": [
+    "%(num)d items", 
+    "%(num)d αντικείμενο", 
+    "%(num)d αντικείμενα"
+  ], 
+  "%(num)d missing translation": [
+    "%(num)d missing translations", 
+    "%(num)d υπολειπόμενη μετάφραση", 
+    "%(num)d υπολειπόμενες μεταφράσεις"
+  ], 
+  "Add Filter": [
+    null, 
+    "Προσθήκη φίλτρου"
+  ], 
   "An Error Occurred": [
-    null,
+    null, 
     "Παρουσιάστε ένα λάθος"
-  ],
+  ], 
   "Are you sure you want to perform this action?": [
-    null,
+    null, 
     "Είστε βέβαιοι ότι θέλετε να εκτελέσετε αυτή την ενέργεια;"
-  ],
+  ], 
   "Cancel": [
-    null,
+    null, 
     "Ακύρωση"
-  ],
+  ], 
   "Confirm": [
-    null,
+    null, 
     "Επιβεβαίωση"
-  ],
+  ], 
+  "Could not load view": [
+    null, 
+    "Η προβολή δεν μεταφορτωθηκε επιτυχώς"
+  ], 
+  "DataProxy returned an error": [
+    null, 
+    "Το DataProxy επέστρεψε ένα μήνυμα λάθους"
+  ], 
+  "DataStore returned an error": [
+    null, 
+    "Το DataStore επέστρεψε ένα μήνυμα λάθους"
+  ], 
   "Edit": [
-    null,
+    null, 
     "Επεξεργασία"
-  ],
+  ], 
   "Failed to load data API information": [
-    null,
+    null, 
     "Αποτυχία φόρτωσης πληροφοριών από το API δεδομένων"
-  ],
+  ], 
+  "File": [
+    null, 
+    "Αρχείο"
+  ], 
+  "Filters": [
+    null, 
+    "Φίλτρα"
+  ], 
   "Follow": [
-    null,
+    null, 
     "Ακολουθήστε"
-  ],
+  ], 
+  "Graph": [
+    null, 
+    "Γράφημα"
+  ], 
+  "Grid": [
+    null, 
+    "Πλέγμα"
+  ], 
   "Hide": [
-    null,
+    null, 
     "Απόκρυψη"
-  ],
+  ], 
   "Image": [
-    null,
+    null, 
     "Εικόνα"
-  ],
+  ], 
   "Input is too short, must be at least one character": [
-    null,
-    "Δεδομένα εισόδου πολύ μικρά, πρέπει να είναι τουλάχιστον ένας χαρακτήρας"
-  ],
+    "Input is too short, must be at least %(num)d characters", 
+    "Η καταχώρηση είναι πολύ μικρή, πρέπει να είναι τουλάχιστον ένας χαρακτήρας", 
+    "Η καταχόρηση είναι πολύ μικρή, πρέπει να είναι το λιγότερο %(num)d χαρακτήρες"
+  ], 
   "Link": [
-    null,
+    null, 
     "Σύνδεσμος"
-  ],
+  ], 
+  "Link to a URL on the internet (you can also link to an API)": [
+    null, 
+    "Σύνδεσμος σε URL (μπορείτε να παρέχετε σύνδεσμο σε προγραμματιστικη διεπαφή - API)"
+  ], 
   "Loading...": [
-    null,
+    null, 
     "Φορτώνει...."
-  ],
+  ], 
+  "Map": [
+    null, 
+    "Χάρτης"
+  ], 
   "No matches found": [
-    null,
+    null, 
     "Δεν βρέθηκε"
-  ],
+  ], 
   "Please Confirm Action": [
-    null,
+    null, 
     "Παρακαλώ Επιβεβαιώστε "
-  ],
+  ], 
   "Remove": [
-    null,
+    null, 
     "Αφαίρεση"
-  ],
-  "Reorder resources": [
-    null,
-    "Επαναταξινόμηση πόρων"
-  ],
+  ], 
   "Resource uploaded": [
-    null,
+    null, 
     "O πόρος μεταφορτώθηκε επιτυχώς"
-  ],
+  ], 
   "Save order": [
-    null,
+    null, 
     "Αποθήκευση ταξινόμησης"
-  ],
+  ], 
   "Saving...": [
-    null,
+    null, 
     "Αποθήκευση..."
-  ],
+  ], 
+  "Select a field": [
+    null, 
+    "Επιλέξτε ένα πεδίο"
+  ], 
   "Show more": [
-    null,
+    null, 
     "Προβολή περισσοτέρων"
-  ],
+  ], 
   "Start typing…": [
-    null,
+    null, 
     "Ξεκινήστε να πληκτρολογείτε..."
-  ],
+  ], 
   "There are unsaved modifications to this form": [
-    null,
+    null, 
     "Υπάρχουν μη αποθηκευμένες αλλαγές στην φόρμα"
-  ],
+  ], 
   "There is no API data to load for this resource": [
-    null,
+    null, 
     "Δεν υπάρχουν δεδομένα από το API για αυτόν τον πόρο"
-  ],
+  ], 
   "URL": [
-    null,
+    null, 
     "URL"
-  ],
+  ], 
   "Unable to authenticate upload": [
-    null,
+    null, 
     "Αδυναμία επικύρωσης της μεταφόρτωσης"
-  ],
+  ], 
   "Unable to get data for uploaded file": [
-    null,
+    null, 
     "Αδυναμία λήψης δεδομένων του αρχείου μεταφόρτωσης"
-  ],
+  ], 
   "Unable to upload file": [
-    null,
+    null, 
     "Αδυναμία μεταφόρτωσης του αρχείου"
-  ],
+  ], 
   "Unfollow": [
-    null,
+    null, 
     "Διακοπή ακολούθησης"
-  ],
+  ], 
   "Upload": [
-    null,
+    null, 
     "Ανεβάστε"
-  ],
+  ], 
   "Upload a file": [
-    null,
+    null, 
     "Φορτώστε ένα αρχείο"
-  ],
+  ], 
   "Upload a file on your computer": [
-    null,
+    null, 
     "Μεταφόρτωση αρχείου στον υπολογιστή σας"
-  ],
-  "show less": [
-    null,
-    "λιγότερα"
-  ],
-  "show more": [
-    null,
-    "περισσότερα"
+  ], 
+  "You are uploading a file. Are you sure you want to navigate away and stop this upload?": [
+    null, 
+    "Αυτή τη στιγμή μεταφορτώνετε ένα αρχείο. Είσαστε σίγουρος/η ό,τι θέλετε να μεταβείτε σε άλλη σελίδα και να διακόψετε τη μεταφόρτωση;"
+  ], 
+  "bar": [
+    "bars", 
+    "μπάρα", 
+    "μπάρες"
+  ], 
+  "error loading view": [
+    null, 
+    "Σφάλμα κατά τη φόρτωση της προβολής"
+  ], 
+  "foo": [
+    null, 
+    "foo"
+  ], 
+  "hello %(name)s!": [
+    null, 
+    "Γειά σου %(name)s!"
+  ], 
+  "no %(attr)s translation": [
+    "no %(attr)s translations", 
+    "Δεν υπάρχει μετάφραση του %(attr)s", 
+    "Δεν υπάρχουν μεταφράσεις του %(attr)s"
+  ], 
+  "no translation": [
+    "no translations", 
+    "καμία μετάφραση", 
+    "χωρίς μεταφράσεις"
   ]
 }
